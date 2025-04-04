@@ -1,0 +1,146 @@
+.nav {
+  overflow: hidden;
+}
+
+.seckill {
+  position: absolute;
+  top: 10px;
+  right: -87px;
+  width: 71px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 15px;
+  border-left: 1px solid #c81523;
+}
+
+.sk_list {
+  float: left;
+}
+
+.sk_list ul li {
+  float: left;
+}
+
+.sk_list ul li a {
+  display: block;
+  line-height: 47px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  padding: 0 28px;
+}
+
+.sk_con {
+  float: left;
+}
+
+.sk_con ul li {
+  float: left;
+  color: #666;
+}
+
+.sk_con ul li a {
+  display: block;
+  /* 行高会把盒子撑大 影响后面的布局 
+  所以需要给nav添加overflow: hidden;切除溢出部分 */
+  line-height: 50px;
+  font-size: 14px;
+  padding: 0 20px;
+
+}
+
+.sk_con ul li:last-child a::after {
+  content: '\e911';
+  font-family: 'icomoon';
+  font-size: 16px;
+}
+
+.sk_hd {
+  margin-bottom: 25px;
+}
+
+/* 解决一行放不下四个盒子问题 */
+/* .sk_bd {
+  overflow: hidden;
+}
+
+.sk_bd ul {
+  width: 1230px;
+} */
+
+.sk_bd ul li {
+  float: left;
+  width: 290px;
+  height: 460px;
+  margin: 0 13px 10px 0;
+  border: 1px solid transparent;
+  overflow: hidden;
+}
+
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+  border: 1px solid #c81523;
+}
+
+.sk_bd_img {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+
+.sk_bd_txt {
+  font-size: 14px;
+  padding: 0 10px 0 13px;
+}
+
+.sk_bd_txt i {
+  font-size: 22px;
+  color: #e60012;
+  font-weight: 700;
+}
+
+.sk_bd_txt i::before {
+  content: '￥';
+  font-size: 14px;
+}
+
+.sk_bd_txt span {
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.data {
+  font-size: 14px;
+  padding-left: 13px;
+  margin-bottom: 14px;
+}
+
+.bar {
+  display: inline-block;
+  width: 132px;
+  height: 12px;
+  padding: 1px;
+  border: 1px solid #ed282e;
+  border-radius: 6px;
+}
+
+.bar_in {
+  width: 87%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #ed282e;
+}
+
+.buy {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ed282e;
+}

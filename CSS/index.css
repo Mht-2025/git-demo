@@ -1,0 +1,444 @@
+/* 首页main start */
+.main {
+  width: 980px;
+  height: 465px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.focus {
+  float: left;
+  width: 721px;
+  height: 455px;
+  background-color: blue;
+}
+
+.focus ul li img {
+  width: 721px;
+  height: 455px;
+}
+
+.newsflash {
+  width: 250px;
+  height: 455px;
+  float: right;
+}
+
+.new {
+  height: 165px;
+  border: 1px solid #e4e4e4;
+}
+
+.new dl dt {
+  position: relative;
+  height: 33px;
+  line-height: 33px;
+  padding-left: 15px;
+  margin-bottom: 6px;
+  border-bottom: 1px dotted #333;
+  font-size: 14px;
+  color: #333;
+}
+
+.new dl dt a {
+  position: absolute;
+  right: 30px;
+
+}
+
+.new dl dt a::after {
+  content: '\e918';
+  font-family: 'icomoon';
+  position: absolute;
+  right: -15px;
+}
+
+.new dl dd {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 15px;
+  font-size: 12px;
+  color: #666;
+  /* 1.这个单词的意思是如果文字显示不开也必须强制一行显示 */
+  white-space: nowrap;
+  /* 2.溢出部分隐藏起来 */
+  overflow: hidden;
+  /* 3.溢出部分显示省略号 */
+  text-overflow: ellipsis;
+}
+
+.lifeservice {
+  overflow: hidden;
+  height: 209px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+}
+
+.lifeservice ul {
+  width: 252px;
+}
+
+.lifeservice ul li a {
+  position: relative;
+  float: left;
+  width: 63px;
+  height: 71px;
+  text-align: center;
+  /* padding-top: 15px; */
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li a i {
+  display: inline-block;
+  width: 25px;
+  height: 28px;
+  margin-top: 12px;
+  background: url(../images/icons.png) no-repeat;
+}
+
+.lifeservice ul li:nth-of-type(2) a::after {
+  content: '';
+  width: 12px;
+  height: 15px;
+  background: url(../images/reduce.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.lifeservice ul li:nth-of-type(1) i {
+  background-position: -15px -15px;
+}
+
+.lifeservice ul li:nth-of-type(2) i {
+  background-position: -79px -15px;
+}
+
+.lifeservice ul li:nth-of-type(3) i {
+  background-position: -142px -15px;
+}
+
+.lifeservice ul li:nth-of-type(4) i {
+  background-position: -205px -15px;
+}
+
+.lifeservice ul li:nth-of-type(5) i {
+  background-position: -16px -87px;
+}
+
+.lifeservice ul li:nth-of-type(6) i {
+  background-position: -78px -87px;
+}
+
+.lifeservice ul li:nth-of-type(7) i {
+  background-position: -140px -87px;
+}
+
+.lifeservice ul li:nth-of-type(8) i {
+  background-position: -205px -87px;
+}
+
+.lifeservice ul li:nth-of-type(9) i {
+  background-position: -16px -158px;
+}
+
+.lifeservice ul li:nth-of-type(10) i {
+  background-position: -77px -158px;
+}
+
+.lifeservice ul li:nth-of-type(11) i {
+  background-position: -140px -158px;
+}
+
+.lifeservice ul li:nth-of-type(12) i {
+  background-position: -206px -158px;
+}
+
+.bargain {
+  margin-top: 5px;
+}
+
+/* 首页main end */
+/* 推荐部分 start */
+.recom {
+  height: 163px;
+  background-color: #ebebeb;
+}
+
+.recom-hd {
+  float: left;
+  width: 205px;
+  height: 163px;
+  padding-top: 31px;
+  text-align: center;
+  background-color: #5c5251;
+}
+
+.recom-bd {
+  float: left;
+}
+
+.recom-bd ul li {
+  float: left;
+  position: relative;
+}
+
+.recom-bd ul li img {
+  width: 248px;
+  height: 163px;
+
+}
+
+.recom-bd ul li:nth-child(-n+3)::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 145px;
+  right: 0;
+  top: 10px;
+  background-color: #bbb;
+}
+
+/* 推荐部分 end */
+/* 猜你喜欢部分start */
+.like {
+  height: 262px;
+  margin-top: 30px;
+}
+
+.like_hd {
+  height: 30px;
+}
+
+.like_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+}
+
+.like_hd p {
+  float: right;
+  font-size: 12px;
+  color: #666;
+}
+
+.like_hd p a::after {
+  content: '\ea2e';
+  font-family: 'icomoon';
+  margin: 0 20px 0 10px;
+}
+
+.like_bd {
+  height: 233px;
+  border: 1px solid #ededed;
+}
+
+.like_bd ul {
+  width: 1210px;
+  overflow: hidden;
+}
+
+.like_bd ul li {
+  float: left;
+  width: 200px;
+  height: 233px;
+}
+
+.like_bd ul li a {
+  color: #666;
+}
+
+.like_text {
+  height: 60px;
+  padding-left: 35px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.like_bd ul li:nth-child(-n+5) .like_text {
+  border-right: 1px solid #ededed;
+
+}
+
+.like_text h3 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.like_text i {
+  font-size: 18px;
+  color: #df3033;
+}
+
+.like_text i::before {
+  content: '¥';
+  font-size: 14px;
+}
+
+.like_img {
+  width: 200px;
+  height: 160px;
+  text-align: center;
+  line-height: 160px;
+}
+
+/* 猜你喜欢部分end */
+/* 传智播客 有趣区 start */
+.fun_hd {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.fun_bd {
+  height: 405px;
+  border: 1px solid #ededed;
+  overflow: hidden;
+}
+
+.fun_bd>div {
+  float: left;
+}
+
+.fun_bd .box1 {
+  float: left;
+  width: 403px;
+  height: 100%;
+}
+
+.fun_bd .box2 {
+  float: left;
+  width: 225px;
+  height: 100%;
+  border-right: 1px solid #ededed;
+}
+
+.fun_bd .box2 .box2-hd {
+  width: 195px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 17px;
+  border-bottom: 1px dashed #ededed;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box2-bd ul li {
+  width: 225px;
+}
+
+.box2-bd ul li img {
+  width: 100%;
+}
+
+.box3 {
+  width: 405px;
+}
+
+.box3 .box3-hd {
+  width: 405px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 17px;
+  border-bottom: 1px dashed #ededed;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box3 .box3-hd ul {
+  height: 100%;
+  width: 405px;
+}
+
+.box3 .box3-bd ul li {
+  width: 405px;
+}
+
+.box4 img {
+  width: 160px;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 传智播客 有趣区 end */
+/* 家电部分 */
+.floor .w {
+  margin-top: 30px;
+}
+
+.box_hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c81623;
+}
+
+.tab_list {
+  float: right;
+}
+
+.tab_list ul li {
+  float: left;
+  line-height: 30px;
+}
+
+.tab_list ul li a {
+  padding: 0 15px;
+}
+
+.box_bd {
+  height: 361px;
+}
+
+.tab_list_item>div {
+  float: left;
+  height: 361px;
+}
+
+.col_210 {
+  width: 210px;
+  text-align: center;
+  background-color: #f9f9f9;
+
+}
+
+.col_210 ul {
+  margin-left: 13px;
+}
+
+.col_210 ul li {
+  float: left;
+  width: 85px;
+  height: 34px;
+  line-height: 33px;
+  border-bottom: 1px solid #ededed;
+  margin-right: 12px;
+
+}
+
+.col_329 {
+  width: 329px;
+}
+
+.col_221 {
+  width: 221px;
+  border-right: 1px solid #ccc;
+}
+
+.col_219 {
+  width: 219px;
+}
+
+.bb {
+  /* 一般情况下 a如果包含有宽度的盒子，a需要转换为块级元素 */
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
